@@ -39,6 +39,20 @@
 			echo "El resultado es: " . ($numero1%$numero2);
 		}
 
+		if(!strcmp("Incremento",$calculo)){
+			global $numero1;
+			$numero1++;
+			$resultado=$numero1;
+			echo "El resultado es: $resultado";
+		}
+
+		if(!strcmp("Decremento",$calculo)){
+			global $numero1;
+			$numero1--;
+			$resultado=$numero1;
+			echo "El resultado es: $resultado";
+		}
+
 	}
 
 ?>

@@ -19,12 +19,24 @@
 				<option>multi </option>
 				<option>divi </option>
 				<option>modulo </option>
+				<option>Incremento </option>
+				<option>Decremento </option>
 			</select>
 		</p>
 		<p>
 			<input type="submit" name="button" 	value="enviar" onclick="prueba">
 		</p>
 	</form>
+<?php 
+	include ("calculadora.php");
 
+	if(isset($_POST["button"])){
+		$numero1=$_POST["num1"];
+		$numero2=$_POST["num2"];
+		$operacion=$_POST["operacion"];
+
+		calcular($operacion);
+	}
+?>
 </body>
 </html>
