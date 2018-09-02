@@ -6,7 +6,8 @@
 </head>
 <body>
 <?php 
-	
+	//for con break
+
 	// for($i=0;$i<=10;$i++){
 
 	// 	echo "<p> Hemos entrado en el bucle osea i = $i </p>";
@@ -18,6 +19,9 @@
 	// 		break;
 	// 	}
 	// }"<br> <br>"
+
+
+// for con continu
 
 	for ($var=10;$var>=-10;$var--){ 
 		
